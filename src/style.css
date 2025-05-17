@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Define root variables for consistent theming */
+:root {
+  --pure-black: black;
+  --some-black: #f0ece2;
+  --light-black: #dfd3c3;
+  --light-black2: #eac6a8;
+  --white: #ffffff;
+  --signup-orange: #f3bc77;
+  --first-font: "Ancizar Serif", serif;
+  --second-font: "Monomakh", system-ui;
+}
+
+::selection {
+  background-color: var(--light-black);
+  color: var(--some-black);
+}
+
+.head-description1 {
+  display: flex;
+  width: 100%;
+  font-family: var(--first-font);
+  font-size: 1.4rem;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--pure-black);
+
+  padding: 1rem 5%;
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
+  background-color: var(--some-black);
+
+  /* border-bottom: 1px solid var(--light-black);*/
+}
+
+.head-description1 div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.head-description1 i {
+  font-size: 1.6rem;
+  color: var(--pure-black);
+}
+
+/* Specific styles for each section */
+.head-contact i {
+  font-size: 1.6rem;
+}
+
+/* Make sure the h3 elements are not too large */
+.head-description1 h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.head-description2 {
+  display: flex;
+  width: 100%;
+  font-family: var(--first-font);
+  font-size: 1.4rem;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--pure-black);
+  padding-left: 2rem;
+  padding-right: 3rem;
+  background-color: black;
+
+  height: 6.5rem;
+
+  /* border-bottom: 1px solid var(--light-black);*/
+}
+
+.head-description2 div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*
+  box-shadow: -13px 16px 0px -6px rgba(160,60,60,0.21);
+-webkit-box-shadow: -13px 16px 0px -6px rgba(160,60,60,0.21);
+-moz-box-shadow: -13px 16px 0px -6px rgba(160,60,60,0.21);
+*/
+}
+
+.Home-button {
+  border-radius: 1rem;
+  border: 2px solid white;
+  color: var(--light-black2);
+  padding: 0.5rem;
+}
+
+.Spaces-button {
+  border-radius: 1rem;
+  border: 2px solid white;
+  color: var(--light-black2);
+  padding: 0.5rem;
+}
+
+.Amenities-button {
+  border-radius: 1rem;
+  border: 2px solid white;
+  color: var(--light-black2);
+  padding: 0.5rem;
+}
+
+.Urban-Haven-Apartments-logo {
+  align-items: center;
+  border: 1rem;
+  padding-top: 0rem;
+  height: 2rem;
+  justify-content: center;
+  font-size: 0.5rem;
+  position: relative;
+}
+
+.img-logo {
+  align-items: center;
+  height: auto;
+  width: 5.8rem;
+  padding-bottom: 0.4rem;
+}
+
+.Contact-Us-button {
+  border-radius: 1rem;
+  border: 2px solid white;
+  color: var(--light-black2);
+  padding: 0.5rem;
+}
+
+.Book-Viewing-button {
+  border-radius: 1rem;
+  border: 2px solid white;
+  color: var(--light-black2);
+  padding: 0.5rem;
+}
+
+.Signup-button {
+  /*background-color: ;*/
+  border-radius: 1rem;
+  border: 2px solid var(--some-black);
+  padding: 0.4rem;
+  /*linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%)*/
+  color: var(--light-black2);
+  padding: 0.5rem;
+}
+
+.hero1image {
+  width: auto;
+}
+
+.hero-page-name {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 32rem;
+  color: var(--light-black2);
+  height: 700rem;
+
+  /*background-position: center -100px */
+  background: transparent;
+  /*opacity: 0.9;*/
+}
+
+k {
+  color: white;
+  border: 2px solid var(--signup-orange);
+  padding: 0.5rem;
+  padding-bottom: 2rem;
+  border-radius: 4rem;
+}
+
+.hero-background-main {
+  background-image: url("/images/location2.jpg");
+  background-repeat: no-repeat;
+}
+
+div .hero-page-name-description {
+  text-align: center;
+  color: var(--light-black2);
+  /*border: 2px solid black;*/
+  font-size: 1rem;
+  padding-top: 3rem;
+  text-transform: uppercase;
+}
+
+.hero-page-pad {
+  padding-top: 3.5rem;
+}
+.shedule-and-discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-decoration: none;
+}
+
+.shedule-and-discover a {
+  text-decoration: none;
+}
+
+div .hero-page-name-schedule {
+  padding-top: 1rem;
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 0.6rem;
+  padding-bottom: 1rem;
+  width: 20rem;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.hero-page-name-discover {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border-radius: 0.6rem;
+  width: 20rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  background-color: #dfd3c3;
+}
