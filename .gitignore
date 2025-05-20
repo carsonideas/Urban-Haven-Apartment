@@ -62,6 +62,7 @@ https://sunsetrealestate.ca/property/moon-garden-2/
   </head>
 
   <body>
+    <!--TODO: Header Section -->
     <header class="header" id="header">
       <div class="head-description1">
         <div class="description-experience">
@@ -106,10 +107,6 @@ https://sunsetrealestate.ca/property/moon-garden-2/
               alt="Urban-Haven-Apartments-logo"
               class="img-logo"
             />
-            <!--
-            </br>
-            Urban Haven 
-            <br>Apartments</br>  -->
           </h3>
         </div>
 
@@ -127,15 +124,9 @@ https://sunsetrealestate.ca/property/moon-garden-2/
       </div>
     </header>
 
-    <!--
-    <div>
-      <div class="hero-page-image">
-        <img src="./images/location2.jpg" alt="hero page image" class="hero1image" ></img>
-      </div>
-    </div>
-    -->
+    <!--TODO: Main Content Section -->
+
     <div class="hero-background-main">
-      <!--<img src="./images/location2.jpg" alt="" class="image">-->
       <div class="hero-page-name">
         <h1>Urban Haven <k>Apartments</k></h1>
 
@@ -159,175 +150,191 @@ https://sunsetrealestate.ca/property/moon-garden-2/
           </a>
         </div>
       </div>
+    </div>
 
-      <div class="preview">
-        <div><h5 class="book-head">Book Your Room & Enjoy the comfort</h5></div>
-        <div class="comfort-preview">
-          <div class="amenity1">
-            <img src="./images/bed1.jpg" alt="bed1" class="view1" />
-            <p></p>
-            <p></p>
-          </div>
+    <!--TODO: Preview Section -->
+    <div class="preview">
+  <div><h5 class="book-head">Book Your Room & Enjoy the comfort</h5></div>
+  <div class="comfort-preview">
+    <div class="amenity1">
+      <img src="./images/bed1.jpg" alt="Single Room" class="view1" />
+      <p class="apartment-type">Single Rooms</p>
+      <p class="apartment-price">Cozy and budget friendly rooms suitable for individuals @ Kshs.3500 per month.</p>
+    </div>
 
-          <div class="amenity2">
-            <img src="./images/bed2.jpg" alt="" class="view2" />
-            <p></p>
-            <p></p>
-          </div>
+    <div class="amenity2">
+      <img src="./images/bed2.jpg" alt="Bedsitter" class="view2" />
+      <p class="apartment-type">Bedsitters</p>
+      <p class="apartment-price">Cozy and comfortable bedsitters with a kitchen area and sink suitable for individuals and couples @ Kshs.5500 per month.</p>
+    </div>
 
-          <div class="amenity3">
-            <img src="./images/bed3.jpg" alt="" class="view3" />
-            <p></p>
-            <p></p>
-          </div>
+    <div class="amenity3">
+      <img src="./images/bed3.jpg" alt="Studio Apartment" class="view3" />
+      <p class="apartment-type">Studio Apartments</p>
+      <p class="apartment-price">Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience @ Kshs.7000 per month.</p>
+    </div>
 
-          <div class="amenity4">
-            <img src="./images/bed4.jpg" alt="" class="view4" />
-            <p></p>
-            <p></p>
-          </div>
+    <div class="amenity4">
+      <img src="./images/bed4.jpg" alt="One Bedroom Apartment" class="view4" />
+      <p class="apartment-type">One Bedroom Apartments</p>
+      <p class="apartment-price">Spacious apartments with a separate bedroom, ideal for individuals or couples looking for additional privacy and space @ Kshs.8500 per month.</p>
+    </div>
 
-          <div class="amenity5">
-            <img src="./images/bed5.jpg" alt="" class="view5" />
-            <p></p>
-            <p></p>
-          </div>
+    <div class="amenity5">
+      <img src="./images/bed5.jpg" alt="Two Bedroom Apartment" class="view5" />
+      <p class="apartment-type">Two Bedroom Apartments</p>
+      <p class="apartment-price">Larger apartments with two separate bedrooms, suitable for small families or roommates @ Kshs.10000 per month.</p>
+    </div>
 
-          <div class="amenity6">
-            <img src="./images/bed6.jpg" alt="" class="view6" />
-            <p></p>
-            <p></p>
-          </div>
+    <div class="amenity6">
+      <img src="./images/bed6.jpg" alt="One Bedroom Self-Contained" class="view6" />
+      <p class="apartment-type">One Bedroom Self-Contained Apartments</p>
+      <p class="apartment-price">Apartments with a separate bedroom and private amenities, including a kitchen and bathroom, offering utmost privacy and convenience @ Kshs. 15000 per month.</p>
+    </div>
 
-          <div class="amenity7">
-            <img src="./images/room1.webp" alt="" class="view7" />
-            <p></p>
-            <p></p>
-          </div>
+    <div class="amenity7">
+      <img src="./images/room1.webp" alt="Two Bedroom Self-Contained" class="view7" />
+      <p class="apartment-type">Two Bedroom Self-Contained Apartments</p>
+      <p class="apartment-price">Apartments with two bedrooms and private amenities, providing ample space and comfort for families or larger households @ Kshs.20000 per month.</p>
+    </div>
 
-          <div class="amenity8">
-            <img src="./images/room2.webp" alt="" class="view8" />
-            <p></p>
-            <p></p>
-          </div>
+    <div class="amenity8">
+      <img src="./images/room2.webp" alt="Studio Apartment Alt" class="view8" />
+      <p class="apartment-type">Studio Apartments</p>
+      <p class="apartment-price">Perfect for individuals or couples seeking a modern living experience @ Kshs.7000 per month.</p>
+    </div>
 
-          <div class="amenity9">
-            <img src="./images/room3.webp" alt="" class="view9" />
-            <p></p>
-            <p></p>
+    
+  </div>
+</div>
+
+    <!--TODO: Contact and Schedule Section -->
+    <div class="perk-container">
+      <div class="perk-left-content">
+        <div>
+          <h1 class="perk-heading">SCHEDULE<br />A SHOWING</h1>
+          <p class="perk-subheading">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+
+        <div class="perk-agent-profile">
+          <img src="./images/sold.png" alt="" class="agent-image" />
+
+          <div>
+            <h2 class="agent-name">Carson Doughlas</h2>
+            <p class="agent-title">Real Estate Agent</p>
+
+            <div class="agent-contact">
+              <div class="contact-item">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>0112556209</span>
+              </div>
+              <div class="perk-contact-item">
+                <i class="fa-solid fa-envelopes-bulk"></i>
+                <span>UrbanHavenApartments@website.com</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="perk-container">
-        <div class="perk-left-content">
-          <div>
-            <h1 class="perk-heading">SCHEDULE<br />A SHOWING</h1>
-            <p class="perk-subheading">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-
-          <div class="perk-left-content">
-          <div>
-            <h1 class="perk-heading">SCHEDULE<br />A SHOWING</h1>
-            <p class="perk-subheading">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-
-          <div class="perk-agent-profile">
-            <img src="./images/sold.png" alt="" class="agent-image" />
-
-            <div>
-              <h2 class="agent-name">Carson Doughlas</h2>
-              <p class="agent-title">Real Estate Agent</p>
-
-              <div class="agent-contact">
-                <div class="contact-item">
-                  <i class="fa-solid fa-phone-volume"></i>
-                  <span>0112556209</span>
-                </div>
-                <div class="perk-contact-item">
-                  <i class="fa-solid fa-envelopes-bulk"></i>
-                  <span>UrbanHavenApartments@website.com</span>
-                </div>
-              </div>
+      <div class="right-content">
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" placeholder="First Name" required />
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Last Name" required />
             </div>
           </div>
-        </div>
 
-        <div class="right-content">
-          <form>
-            <div class="form-row">
-              <div class="form-group">
-                <input type="text" placeholder="First Name" required />
-              </div>
-              <div class="form-group">
-                <input type="text" placeholder="Last Name" required />
-              </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="email" placeholder="Email" required />
             </div>
-
-            <div class="form-row">
-              <div class="form-group">
-                <input type="email" placeholder="Email" required />
-              </div>
-              <div class="form-group">
-                <input type="tel" placeholder="Phone" required />
-              </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Phone" required />
             </div>
+          </div>
 
-            <textarea placeholder="Type your message here..."></textarea>
+          <textarea placeholder="Type your message here..."></textarea>
 
-            <button type="submit" class="submit-btn">SUBMIT</button>
-          </form>
-        </div>
+          <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
       </div>
     </div>
-    
-    <!-- Footer Section -->
-    <footer class="urban-footer">
+
+    <!--TODO: Footer Section -->
+    <footer class="my-footer">
       <div class="footer-container">
         <div class="footer-logo-section">
-          <img src="./images/havenlogo7.png" alt="Urban-Haven-Apartments-logo" class="footer-logo" />
-          <h3 class="footer-tagline">Experience Luxury Living</h3>
+          <img
+            src="./images/havenlogo7.png"
+            alt="Urban Haven Apartments Logo"
+            class="footer-logo"
+          />
+          <p class="footer-tagline">Luxury Living Redefined</p>
         </div>
-        
+
         <div class="footer-links-section">
           <div class="footer-column">
-            <h4 class="footer-heading">Quick Links</h4>
+            <h3 class="footer-heading">Quick Links</h3>
             <ul class="footer-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Spaces</a></li>
-              <li><a href="#">Amenities</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Book Viewing</a></li>
+              <li>
+                <a href=""><i class="fa-solid fa-angle-right"></i>Home</a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-angle-right"></i>Spaces</a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-angle-right"></i>Amenities</a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa-solid fa-angle-right"></i>Book Viewing</a
+                >
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-angle-right"></i>Contact Us</a>
+              </li>
             </ul>
           </div>
-          
+
           <div class="footer-column">
-            <h4 class="footer-heading">Contact Info</h4>
+            <h3 class="footer-heading">Contact Info</h3>
             <ul class="footer-list">
-              <li><i class="fa-solid fa-location-dot"></i> 1706 muranga'a, Kiharu</li>
-              <li><i class="fa-solid fa-phone-volume"></i> 0112556209</li>
-              <li><i class="fa-solid fa-envelope"></i> info@urbanhaven.com</li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>1706 muranga'a, Kiharu
+              </li>
+              <li><i class="fa-solid fa-phone"></i>0112556209</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i
+                >UrbanHavenApartments@website.com
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i>Mon - Fri: 9:00AM - 6:00PM
+              </li>
             </ul>
           </div>
-          
+
           <div class="footer-column">
-            <h4 class="footer-heading">Follow Us</h4>
+            <h3 class="footer-heading">Connect With Us</h3>
             <div class="footer-social">
-              <a href=""><i class="fa-brands fa-facebook"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
               <a href=""><i class="fa-brands fa-twitter"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
+            <p style="margin-top: 2rem; font-size: 1.6rem">
+              Subscribe to our newsletter for updates and special offers
+            </p>
           </div>
         </div>
       </div>
-      
+
       <div class="footer-copyright">
         <p>&copy; 2025 Urban Haven Apartments. All Rights Reserved.</p>
       </div>
@@ -335,12 +342,4 @@ https://sunsetrealestate.ca/property/moon-garden-2/
   </body>
 </html>
 
-    <!--
-    <div>
-      <div class="hero-page-image2">
-        <img src="./images/location1.jpg" alt="hero page image" class="hero1image" ></img>
-      </div>
-    -->
-  </body>
-</html>
 
