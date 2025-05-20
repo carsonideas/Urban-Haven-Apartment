@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
 }
 
-/* Define root variables for consistent theming */
+/* Defining my initial variables for consistent theming */
 :root {
   --pure-black: black;
   --some-black: #f0ece2;
@@ -55,12 +55,10 @@ html {
   color: var(--pure-black);
 }
 
-/* Specific styles for each section */
 .head-contact i {
   font-size: 1.6rem;
 }
 
-/* Make sure the h3 elements are not too large */
 .head-description1 h3 {
   font-size: 1.4rem;
   font-weight: 500;
@@ -120,7 +118,7 @@ html {
 .Urban-Haven-Apartments-logo {
   align-items: center;
   border: 1rem;
- 
+
   height: 2rem;
   justify-content: center;
   font-size: 0.5rem;
@@ -157,7 +155,6 @@ html {
   color: var(--light-black2);
   padding: 0.5rem;
 }
-
 
 .hero1image {
   width: auto;
@@ -240,7 +237,6 @@ k {
   }
 
   .Urban-Haven-Apartments-logo {
-
     text-align: center;
     order: -1;
     margin-bottom: 1rem;
@@ -263,7 +259,12 @@ k {
     align-items: center;
   }
 
-  .Home-button, .Spaces-button,.Amenities-button, .Contact-Us-button,.Book-Viewing-button, .Signup-button {
+  .Home-button,
+  .Spaces-button,
+  .Amenities-button,
+  .Contact-Us-button,
+  .Book-Viewing-button,
+  .Signup-button {
     width: 80%;
     text-align: center;
     margin: 0.3rem;
@@ -308,8 +309,7 @@ div .hero-page-name-schedule {
   text-decoration: none;
 }
 
-.hero-page-name-schedule:hover
-{
+.hero-page-name-schedule:hover {
   transform: translateY(-0.5rem);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   background-color: #dfd3c3;
@@ -332,21 +332,19 @@ div .hero-page-name-schedule {
   background-color: #dfd3c3;
 }
 
-.hero-page-name-discover:hover
-{
+.hero-page-name-discover:hover {
   transform: translateY(-0.5rem);
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2)
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Updated Preview Section */
+/* my new updated Preview Section */
 .preview {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
   padding: 5rem;
-  
+
   width: 100%;
- 
 }
 
 .book-head {
@@ -367,6 +365,10 @@ div .hero-page-name-schedule {
   gap: 2rem;
   height: 90rem;
   width: 100%;
+
+  /* Center grid in container */
+  justify-content: center; 
+  
 }
 
 /* Responsive grid adjustments */
@@ -374,7 +376,6 @@ div .hero-page-name-schedule {
   .comfort-preview {
     grid-template-columns: repeat(3, 29rem);
     height: 130rem;
-    
   }
 }
 
@@ -417,8 +418,8 @@ div .hero-page-name-schedule {
   width: 100%;
   /*flex-wrap: wrap;
   display: grid; */
-  display: grid;
-  /*grid-template-columns: repeat(4, 23rem);
+display: grid;
+/*grid-template-columns: repeat(4, 23rem);
   
 }
 
@@ -426,7 +427,7 @@ div .hero-page-name-schedule {
   .comfort-preview {
     display: grid;
     /*grid-template-columns: repeat;*/
-    /*gap: 12rem;
+/*gap: 12rem;
     height: 50rem;
     width: 50rem;
   }
@@ -455,16 +456,14 @@ h5 {
 }
 
 .amenity1 {
- 
-  
-  
   height: auto;
   border: 2px solid var(--signup-orange);
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   margin-bottom: 2rem;
-  
 }
 .amenity1:hover {
   transform: translateY(-0.5rem);
@@ -472,7 +471,6 @@ h5 {
 }
 
 .view1 {
-  
   height: 25rem;
   object-fit: cover;
   display: block;
@@ -486,19 +484,17 @@ h5 {
   width: 30rem;
   transform: scale(1.1);
   margin-bottom: 1.5rem;
-  
 }
 
 .amenity2 {
-  
-
   height: auto;
   border: 2px solid var(--signup-orange);
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   margin-bottom: 2rem;
-
 }
 
 .amenity2:hover {
@@ -507,7 +503,6 @@ h5 {
 }
 
 .view2 {
-  
   width: 28rem;
   height: 25rem;
   object-fit: cover;
@@ -516,13 +511,13 @@ h5 {
 }
 
 .amenity3 {
-  
- 
   height: auto;
   border: 2px solid var(--signup-orange);
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   margin-bottom: 2rem;
 }
 
@@ -532,7 +527,6 @@ h5 {
 }
 
 .view3 {
-  
   width: 40rem;
   height: 25rem;
   object-fit: cover;
@@ -548,16 +542,14 @@ h5 {
 }
 
 .amenity4 {
-  
-  
-  
   height: auto;
   border: 2px solid var(--signup-orange);
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   margin-bottom: 2rem;
-  
 }
 
 .amenity4:hover {
@@ -565,9 +557,7 @@ h5 {
   box-shadow: 50px black;
 }
 
-
 .view4 {
-  
   width: 40rem;
   height: 25rem;
   object-fit: cover;
@@ -576,14 +566,13 @@ h5 {
 }
 
 .amenity5 {
-
-  
-
   height: auto;
   border: 2px solid var(--signup-orange);
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   margin-bottom: 2rem;
 }
 
@@ -593,7 +582,6 @@ h5 {
 }
 
 .view5 {
-  
   width: 40rem;
   height: 25rem;
   object-fit: cover;
@@ -609,12 +597,13 @@ h5 {
 }
 
 .amenity6 {
-
   height: auto;
   border: 2px solid var(--signup-orange);
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   margin-bottom: 2rem;
 }
 
@@ -624,7 +613,6 @@ h5 {
 }
 
 .view6 {
-  
   width: 40rem;
   height: 25rem;
   object-fit: cover;
@@ -633,14 +621,13 @@ h5 {
 }
 
 .amenity7 {
- 
-  
-
   height: auto;
   border: 2px solid var(--signup-orange);
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   margin-bottom: 2rem;
 }
 
@@ -650,8 +637,6 @@ h5 {
 }
 
 .view7 {
-  
-
   height: 25rem;
   object-fit: cover;
   display: block;
@@ -666,13 +651,13 @@ h5 {
 }
 
 .amenity8 {
-  
-
   height: auto;
   border: 2px solid var(--signup-orange);
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   margin-bottom: 2rem;
 }
 
@@ -682,20 +667,21 @@ h5 {
 }
 
 .view8 {
-  
-  
   height: 25rem;
   object-fit: cover;
   display: block;
   transform: scale(1.1);
 }
 
-.view1, .view2, .view3, .view4,
-.view5, .view6, .view7, .view8 
-{
-  
+.view1,
+.view2,
+.view3,
+.view4,
+.view5,
+.view6,
+.view7,
+.view8 {
   height: 25rem;
-  
 }
 
 .apartment-type {
@@ -712,18 +698,7 @@ h5 {
   padding: 0 1.5rem 1.5rem;
 }
 
-
-
-
-
-
-@media and (min-width: 20rem) 
-{
-  
-}
-
 .perk-container {
- 
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -733,10 +708,7 @@ h5 {
   padding-right: 10rem;
   background-color: rgb(96, 80, 51);
   margin-top: 3rem;
-  
 }
-
-
 
 .perk-left-content {
   flex: 1;
@@ -842,8 +814,8 @@ textarea {
 .submit-btn {
   width: 100%;
   padding: 1.5rem;
-  
-  background-color:  var(--light-black2);
+
+  background-color: var(--light-black2);
   color: white;
   border: none;
   font-size: 1rem;
@@ -1076,7 +1048,7 @@ textarea {
   text-align: center;
   padding-top: 3rem;
   margin-top: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid grey;
   font-size: 1.4rem;
 }
 
@@ -1151,24 +1123,3 @@ textarea {
     font-size: 1.2rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
