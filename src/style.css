@@ -182,7 +182,7 @@ k {
 }
 
 .hero-background-main {
-  background-image: url(./images/location2.jpg);
+  background-image: url(../images/location2.jpg);
   background-repeat: repeat-x;
   
 }
@@ -590,7 +590,7 @@ h5 {
   transform: scale(1.1);
 }
 
-@media and (min-width: 20rem) {
+@media screen and (min-width: 20rem) {
 }
 .view5 {
   height: 30rem;
@@ -644,7 +644,7 @@ h5 {
   transform: scale(1.1);
 }
 
-@media and (min-width: 20rem) {
+@media screen and (min-width: 20rem) {
 }
 .view7 {
   height: 30rem;
@@ -830,7 +830,7 @@ textarea {
   background-color: #867c68;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
   }
