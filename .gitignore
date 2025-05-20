@@ -21,3 +21,326 @@ https://propertymanagement.sg/blog/portfolio/data-analysis/
 https://zango.com.au/property/125-mcmichael-terrace-denman-prospect-act-2611/
 
 https://sunsetrealestate.ca/property/moon-garden-2/
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urban Haven Apartments</title>
+    <link rel="icon" href="./images/Havenlogo.png" />
+    <!-- External stylesheet reference -->
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monomakh&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Changed to a specific version that definitely exists -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <div class="head-description1">
+        <div class="description-experience">
+          <i class="fa-solid fa-ranking-star"></i>
+          <h3>quality is our standard for over 40 years</h3>
+        </div>
+
+        <div class="head-location">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>1706 muranga'a, Kiharu</h3>
+        </div>
+
+        <div class="head-contact">
+          <i class="fa-solid fa-phone-volume"></i>
+          <h3>0112556209</h3>
+        </div>
+
+        <div class="head-language">
+          <h3>Eng</h3>
+          <i class="fa-regular fa-circle-chevron-down"></i>
+        </div>
+      </div>
+
+      <div class="head-description2">
+        <div class="Home-button">
+          <h3>Home</h3>
+        </div>
+
+        <div class="Spaces-button">
+          <h3>Spaces</h3>
+        </div>
+
+        <div class="Amenities-button">
+          <h3>Amenities</h3>
+        </div>
+
+        <div class="Urban-Haven-Apartments-logo">
+          <h3>
+            <br />
+            <img
+              src="./images/havenlogo7.png"
+              alt="Urban-Haven-Apartments-logo"
+              class="img-logo"
+            />
+            <!--
+            </br>
+            Urban Haven 
+            <br>Apartments</br>  -->
+          </h3>
+        </div>
+
+        <div class="Contact-Us-button">
+          <h3>Contact Us</h3>
+        </div>
+
+        <div class="Book-Viewing-button">
+          <h3>Book Viewing</h3>
+        </div>
+
+        <div class="Signup-button">
+          <h3>Signup</h3>
+        </div>
+      </div>
+    </header>
+
+    <!--
+    <div>
+      <div class="hero-page-image">
+        <img src="./images/location2.jpg" alt="hero page image" class="hero1image" ></img>
+      </div>
+    </div>
+    -->
+    <div class="hero-background-main">
+      <!--<img src="./images/location2.jpg" alt="" class="image">-->
+      <div class="hero-page-name">
+        <h1>Urban Haven <k>Apartments</k></h1>
+
+        <div class="hero-page-name-description">
+          <h1><!--private Luxury living in kiharu, Murang'a --></h1>
+        </div>
+
+        <div class="hero-page-pad">
+          <h1></h1>
+        </div>
+        <div class="shedule-and-discover">
+          <a href="" target="_blank">
+            <div class="hero-page-name-schedule">
+              <h1>Check Availability</h1>
+            </div>
+          </a>
+          <a href="" target="_blank">
+            <div class="hero-page-name-discover">
+              <h1>discover more</h1>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="preview">
+        <div><h5 class="book-head">Book Your Room & Enjoy the comfort</h5></div>
+        <div class="comfort-preview">
+          <div class="amenity1">
+            <img src="./images/bed1.jpg" alt="bed1" class="view1" />
+            <p></p>
+            <p></p>
+          </div>
+
+          <div class="amenity2">
+            <img src="./images/bed2.jpg" alt="" class="view2" />
+            <p></p>
+            <p></p>
+          </div>
+
+          <div class="amenity3">
+            <img src="./images/bed3.jpg" alt="" class="view3" />
+            <p></p>
+            <p></p>
+          </div>
+
+          <div class="amenity4">
+            <img src="./images/bed4.jpg" alt="" class="view4" />
+            <p></p>
+            <p></p>
+          </div>
+
+          <div class="amenity5">
+            <img src="./images/bed5.jpg" alt="" class="view5" />
+            <p></p>
+            <p></p>
+          </div>
+
+          <div class="amenity6">
+            <img src="./images/bed6.jpg" alt="" class="view6" />
+            <p></p>
+            <p></p>
+          </div>
+
+          <div class="amenity7">
+            <img src="./images/room1.webp" alt="" class="view7" />
+            <p></p>
+            <p></p>
+          </div>
+
+          <div class="amenity8">
+            <img src="./images/room2.webp" alt="" class="view8" />
+            <p></p>
+            <p></p>
+          </div>
+
+          <div class="amenity9">
+            <img src="./images/room3.webp" alt="" class="view9" />
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="perk-container">
+        <div class="perk-left-content">
+          <div>
+            <h1 class="perk-heading">SCHEDULE<br />A SHOWING</h1>
+            <p class="perk-subheading">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <div class="perk-left-content">
+          <div>
+            <h1 class="perk-heading">SCHEDULE<br />A SHOWING</h1>
+            <p class="perk-subheading">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <div class="perk-agent-profile">
+            <img src="./images/sold.png" alt="" class="agent-image" />
+
+            <div>
+              <h2 class="agent-name">Carson Doughlas</h2>
+              <p class="agent-title">Real Estate Agent</p>
+
+              <div class="agent-contact">
+                <div class="contact-item">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <span>0112556209</span>
+                </div>
+                <div class="perk-contact-item">
+                  <i class="fa-solid fa-envelopes-bulk"></i>
+                  <span>UrbanHavenApartments@website.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-content">
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" placeholder="First Name" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Last Name" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <input type="email" placeholder="Email" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" placeholder="Phone" required />
+              </div>
+            </div>
+
+            <textarea placeholder="Type your message here..."></textarea>
+
+            <button type="submit" class="submit-btn">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer class="urban-footer">
+      <div class="footer-container">
+        <div class="footer-logo-section">
+          <img src="./images/havenlogo7.png" alt="Urban-Haven-Apartments-logo" class="footer-logo" />
+          <h3 class="footer-tagline">Experience Luxury Living</h3>
+        </div>
+        
+        <div class="footer-links-section">
+          <div class="footer-column">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Spaces</a></li>
+              <li><a href="#">Amenities</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Book Viewing</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h4 class="footer-heading">Contact Info</h4>
+            <ul class="footer-list">
+              <li><i class="fa-solid fa-location-dot"></i> 1706 muranga'a, Kiharu</li>
+              <li><i class="fa-solid fa-phone-volume"></i> 0112556209</li>
+              <li><i class="fa-solid fa-envelope"></i> info@urbanhaven.com</li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h4 class="footer-heading">Follow Us</h4>
+            <div class="footer-social">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-copyright">
+        <p>&copy; 2025 Urban Haven Apartments. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+    <!--
+    <div>
+      <div class="hero-page-image2">
+        <img src="./images/location1.jpg" alt="hero page image" class="hero1image" ></img>
+      </div>
+    -->
+  </body>
+</html>
+
